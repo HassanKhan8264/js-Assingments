@@ -1,0 +1,17 @@
+var userName;
+var myName = "HassanKhan";
+var message = "Hello world";
+alert("Hello world");
+var userName = "Jhon";
+alert(userName);
+var age = "16";
+alert(age);
+var profession = "application developer";
+alert(profession);
+alert("pizza\npizz\npiz\npi\np");
+var emailAddress = "hf610061@gmail.com";
+var empty;
+var email = "my email address is";
+alert(email + " " + emailAddress);
+alert("I am trying to learn from the Book A Smart way to learn JavaScript");
+alert("------------&*&-----------");
