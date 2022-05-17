@@ -7,20 +7,22 @@ body{
     padding: 0;
     background-color: black;
     text-align: center;
-    background-color: rgb(247, 242, 233);
+    /* background-color: rgb(247, 242, 233); */
+    background-color: whitesmoke;
 }
 .main{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     margin: 20px auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color:rgb(241, 240, 240);
-    width: 1000px;
+    width: 100%;
     /* height: 200px; */
     border-radius: 4px;
-    box-shadow:4px 4px 4px lightgray;
+    /* box-shadow:4px 4px 4px lightgray; */
 
 }
 .container1{
@@ -31,6 +33,7 @@ body{
     border-radius: 4px;
     background-color:whitesmoke;
     z-index: 2;
+    box-shadow: 2px 2px 2px lightgray;
 }
 .container1:hover .alert{
     transition: all 1s ease;
@@ -50,7 +53,7 @@ body{
 }
 
 .button{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 220px;
     margin: 6px auto;
     height: 30px;
@@ -59,6 +62,11 @@ body{
     align-items: center;
     font-size: 25px;
     border-radius: 4px;
+    box-shadow: 4px 4px 4px lightgray;
+}
+.button a{
+    text-decoration: none;
+    color:yellowgreen;
 }
 .none{
     display: none;
@@ -69,25 +77,5 @@ body{
 .button:hover .none{
     display: block;
     cursor: pointer;
-
     /* background-color: linea; */
-}
-.shine{
-    position: absolute;
-    top: 400;
-    left: 700px;
-    background-color: black;
-    opacity: 0.1;
-    height: 30px;
-    width: 10px;
-    z-index: -1;
-    /* left: -70px; */
-    transform: translateX(-70px);
-    transform: skewX(20deg);
-    transition: all 0.1s ease;
-}
-.button:hover .shine{
-    /* position: absolute; */
-    transform: skewX(20deg) translateX(190px);
-    z-index: 1;
 }
