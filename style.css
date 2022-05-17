@@ -1,0 +1,93 @@
+@font-face {
+    font-family: roboto;
+    src: url(./assests/fonts/Roboto/Roboto-Black.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    text-align: center;
+    background-color: rgb(247, 242, 233);
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    border: 1px solid red;
+    background-color:rgb(241, 240, 240);
+    width: 1000px;
+    /* height: 200px; */
+    border-radius: 4px;
+    box-shadow:4px 4px 4px lightgray;
+
+}
+.container1{
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    height: 200px;
+    width: 250px;
+    border-radius: 4px;
+    background-color:whitesmoke;
+    z-index: 2;
+}
+.container1:hover .alert{
+    transition: all 1s ease;
+    /* width: 100px; */
+    /* height: 150px; */
+    font-size: 40px;
+
+}
+.alert{
+    /* border: 1px solid red; */
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    /* border-radius: 20px; */
+}
+
+.button{
+    border: 1px solid red;
+    width: 220px;
+    margin: 6px auto;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 4px;
+}
+.none{
+    display: none;
+}
+.button:hover .text{
+    display: none;
+}
+.button:hover .none{
+    display: block;
+    cursor: pointer;
+
+    /* background-color: linea; */
+}
+.shine{
+    position: absolute;
+    top: 400;
+    left: 700px;
+    background-color: black;
+    opacity: 0.1;
+    height: 30px;
+    width: 10px;
+    z-index: -1;
+    /* left: -70px; */
+    transform: translateX(-70px);
+    transform: skewX(20deg);
+    transition: all 0.1s ease;
+}
+.button:hover .shine{
+    /* position: absolute; */
+    transform: skewX(20deg) translateX(190px);
+    z-index: 1;
+}
