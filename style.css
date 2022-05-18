@@ -2,6 +2,14 @@
     font-family: roboto;
     src: url(./assests/fonts/Roboto/Roboto-Black.ttf);
 }
+@font-face {
+    font-family: Roboto-Italicttf;
+    src:url(./assests/fonts/Roboto/Roboto-Italic.ttf);
+}
+@font-face {
+    font-family: light;
+    src: url(./assests/fonts/Roboto/Roboto-Light.ttf);
+}
 body{
     margin: 0;
     padding: 0;
@@ -9,6 +17,8 @@ body{
     text-align: center;
     /* background-color: rgb(247, 242, 233); */
     background-color: whitesmoke;
+    font-family: light;
+    /* src:url(./assests/fonts/Roboto/Roboto-Italic.ttf); */
 }
 .main{
     display: flex;
@@ -39,7 +49,7 @@ body{
     transition: all 1s ease;
     /* width: 100px; */
     /* height: 150px; */
-    font-size: 40px;
+    font-size: 30px;
 
 }
 .alert{
