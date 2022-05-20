@@ -20,12 +20,7 @@ body{
     font-family: light;
     /* src:url(./assests/fonts/Roboto/Roboto-Italic.ttf); */
 }
-<<<<<<< HEAD
-.main2{
-=======
-
 .main{
->>>>>>> 3d417000e8915aed0938878af86ea488e56e77b0
     display: flex;
     flex-direction: row;
     justify-content: center;

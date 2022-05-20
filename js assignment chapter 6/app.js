@@ -1,5 +1,6 @@
-var x = prompt(x);
-// if{
-     var x = "enter a number";
-//     alert("you are correct");
-// }
+
+alert("haa");
+var a = parseInt(promt("enter your choise number"));
+b = 1;
+while(b<=10);
+document.write(a*b);
