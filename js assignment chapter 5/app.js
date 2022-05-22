@@ -90,6 +90,16 @@ document.write("<br>");
 var radius = "20";
 var circumstance = "125.679999999999";
 document.write(radius + "<br>" + circumstance + "<br>" + "1254.8");
+document.write("<h1>The Geometrize</h1>");
+document.write("<br/>");
+var radius = 12;
+document.write("Rdius of circle" + radius);
+document.write("<br/>");
+var circum = 75.408;
+document.write("Th circumstances" + circum);
+document.write("<br/>");
+var area = 452.448;
+document.write("The area is :" + area);
 
 
 
