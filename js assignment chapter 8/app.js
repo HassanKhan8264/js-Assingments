@@ -43,7 +43,13 @@ var gender = prompt("what is your Gender for Female");
      var age = prompt("Enter your max Age what you expect");
      if(maxAge == 63){
          alert("Your max age is" + 63);
-         alert("Your expected age is 44 to live")
+         alert("Your Welcome sir")
+     }
+     var litre = prompt("Enter your curren fuel");
+     var fuel = "0.25litre";
+     var current = "fuel";
+     if(fuel === fuel){
+         alert("Go and refill your tank");
      }
 
 
