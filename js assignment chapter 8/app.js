@@ -1,3 +1,9 @@
+
+var userTable = prompt("Enter any table");
+for(var r = 1; r < 11; r++) {
+    document.write(userTable + "X" + r + "=" + userTable * r + "<br>")
+}
+
 var anyName = prompt("Enter you Name");
 var name = "Hi";
 alert(name + "\n" + anyName);
