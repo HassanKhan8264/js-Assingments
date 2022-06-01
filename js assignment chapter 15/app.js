@@ -43,21 +43,17 @@ colorS.pop()
 for(colorName = 0; colorName < colorS.length; colorName++) {
     document.write(colorS[colorName] + "<br>")
 }
-// F and G for Later
-// var enterColor = prompt("Enter the position and color nmae where your want to add color");
-// var colorSs = ["skyblue","seagreen","dark","aqua","sea"]
-// var colorNaam;
-// colorS.splice ();
-// for(colorNaam = 0; colorNaam < colorSs.length; colorNaam++) {
-//     document.write("<h2>" + colorSs[colorNaam] + "<br>" + "</h2>")
-// }
-// var enterColor = prompt("Enter the position and color nmae where your want to add color");
-// var colorSs = ["skyblue","seagreen","dark","aqua","sea"]
-// var colorNaam;
-// colorS.splice ();
-// for(colorNaam = 0; colorNaam < colorSs.length; colorNaam++) {
-//     document.write("<h2>" + colorSs[colorNaam] + "<br>" + "</h2>")
-// }
-var score = ["120","230","320","480"]
-score.sort();
-document.write(score);
+var enterColor = prompt("Enter the position and color nmae where your want to add color");
+var colorSs = ["skyblue","seagreen","dark","aqua","sea"]
+var colorNaam;
+colorS.splice ();
+for(colorNaam = 0; colorNaam < colorSs.length; colorNaam++) {
+    document.write("<h2>" + colorSs[colorNaam] + "<br>" + "</h2>")
+}
+var enterColor = prompt("Enter the position and color nmae where your want to add color");
+var colorSs = ["skyblue","seagreen","dark","aqua","sea"]
+var colorNaam;
+colorS.splice ();
+for(colorNaam = 0; colorNaam < colorSs.length; colorNaam++) {
+    document.write("<h2>" + colorSs[colorNaam] + "<br>" + "</h2>")
+}

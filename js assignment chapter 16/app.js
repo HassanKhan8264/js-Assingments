@@ -1,55 +1,58 @@
-// ===========push data in empty arry================================
-// var days = []
-// days.push("mon")
-// days.push("tue")
-// days.push("wed")
-// days.push("thu")
-// days.push("fri")
-// days.push("sat")
-// days.push("sun")
-// console.log(days)
-// ===========pop data from array================================
-// var days = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
-// days.pop()
-// console.log(days)
-// ===========shift data from array================================
-// var days = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
-// days.shift()
-// console.log(days)
-// ===========unshift data in array================================
-// var days = ["mon", "tue", "wed", "thu", "fri", "sat" ]
-// days.unshift("sun")
-// console.log(days)
-// ===========splice data from array================================
-// var days = ["mon", "tue", "wed", "thu", "fri", "sat" ]
-// var grab  = days.splice(2,4)
-// console.log(grab)
-// ===========slice data from array================================
-// var days = ["mon", "tue", "wed", "thu", "fri", "sat" ]
-// var aCopy  = days.slice(2,4)
-// console.log(aCopy)
+var score = ["120","230","320","480"]
+score.sort();
+document.write(score);
+var friuts = ["Strawberry","apple","orange","bannana"]
+document.write("<br>")
+for(var f = 0; f < friuts.length; f++){
+    document.write(friuts[f] + "<br>")
+}
+var friuts = ["Strawberry","apple","orange","bannana"]
+document.write("<br>")
+for(var f = 0; f < friuts.length; f++){
+    document.write(friuts[f] + "<br>")
+    friuts.unshift("apple")
+    friuts.shift()
+    friuts.pop();
+    friuts.push("Strawberry");
+    friuts.splice(1,2,"bananna","orange")
+}
+var citiesOriginal = ["Krachi","Lahore","Islamabad","Quetta","Peshawar"];
+document.write("Cities list:")
+document.write("<br>")
+document.write(citiesOriginal)
+document.write("<br>")
+var cities = ["Krachi","Lahore","Islamabad","Quetta","Peshawar"]
+document.write("Selected cities list:")
+document.write("<br>")
+document.write(cities.slice(2,4));
+var cities = cities.slice (3,4);
+document.write("<br>")
+document.write("<br>")
 
-// var days = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
-// console.log(days)
-// console.log(days[0])
-// console.log(days[1])
-// console.log(days[2])
-// console.log(days[3])
+var arr = ["This" , "is" , "my" , "cat"];
+document.write(arr)
+document.write("<br>");
+document.write(arr.join("\n"))
+document.write("Deveices");
+document.write("<br>");
+var devices = ["keyboard","mouse","printer","monitor"]
+var out = ["out"]
 
-// for (var d = 0; d < days.length; d++) {
-//     console.log(days[d])
-// }
+document.write(devices)
+document.write("<br>");
+for(o = 0; o < devices.length; o++){
+    for(d = 0; d < out.length; d++)
+    document.write(out + "<br>");
+    document.write(devices[o] + "<br>")
+}
+document.write("<br>");
+ devices.slice(1,4)
+var out = ["out"]
 
-// var myFirstArray = ["red","green","blue"]
-// for(var k = 0; k < myFirstArray.length; k++ ){
-//     window.document.write(myFirstArray[k] + "<br/>")
-// }
-
-// for(var u = 1; u < 11; u++){
-//     window.document.write("<h2>2 x " + u + " = " + 2*u + "</h2>" )
-// }
-
-// var userInput = prompt("please enter your table number");
-// for (var u = 1; u < 11; u++) {
-//     window.document.write("<h2>" + userInput + " x " + u + " = " + userInput * u + "</h2>")
-// }
+document.write(devices)
+document.write("<br>");
+for(o = 0 ; o < devices.length; o++){
+    for(d = 0; d < out.length; d++)
+    document.write(out + "<br>")
+ document.write(devices[o] + "<br>");
+}
