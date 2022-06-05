@@ -1,0 +1,669 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width:55%;
+}
+.right{
+    width:50%;
+}
+.left img{
+    width:849px;
+    height: 750px;
+}
+.icon img{
+    width:300px;
+    height: 300px;
+    position: absolute;
+    top:250px;
+    border-radius: 100%;
+    left:250px;
+
+} 
+ .right h1{
+     font-size: 72px;
+     font-family: 'Courier New', Courier, monospace;
+     font-weight:1000;
+     margin:30px 0px 0px 40px;
+     width:90%;
+}
+ .right h2{
+     font-size: 32px;
+     font-family: 'Courier New', Courier, monospace;
+     font-weight:1000;
+     margin:50px 0px 0px 40px;
+     width:90%;
+}
+ .input {
+     width:300px;
+     height: 40px;
+     border: 0.1px solid lightgray;
+     margin:50px 0px 0px 40px;
+     text-align: center;
+     padding: 10px;
+     border-radius: 100px;
+     font-weight:900;
+}
+ .input:hover{
+     background-color: aliceblue;
+}
+ span>a{
+     color:black;
+     text-decoration: none;
+}
+ span>a:hover{
+     color: black;
+     text-decoration: none;
+ }
+ .input2{
+    width:300px;
+    height: 40px;
+    border: 0.1px solid lightgray;
+    margin:20px 0px 0px 40px;
+    text-align: center;
+    padding: -10px;
+    border-radius: 100px;
+    font-weight: 900;
+}
+ .input2:hover{
+     background-color: lightgray;
+
+}
+ .svg{
+     width:30%;
+     margin:20px 0px 0px 40px;
+}
+.or{
+    flex-direction: row;
+    margin:10px 0px 20px 160px;
+    text-decoration:underline
+}
+.input3{
+    width:300px;
+    height: 40px;
+    margin:-15px 0px 0px 40px;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    border-radius: 100px;
+    font-weight: 900;
+    background-color: rgb(42, 162, 241);
+}
+.blue{
+    color:white;
+    text-align: center;
+    align-items: center;
+}
+.input3:hover{
+    background-color: rgb(7, 118, 182);
+}
+.small{
+    width:50%;
+    margin:10px 0px 0px 40px;
+}
+.small span{
+    color:black;
+    font-size: small;
+}
+.small a{
+    color:rgb(72, 174, 243);
+}
+.h {
+    height: 200px;
+
+}
+.h h2{
+    margin:50px 0px 0px 40px;
+    font-size: 22px;
+    font-weight:1000;
+
+}
+.input4{
+        width:300px;
+        height: 40px;
+        border:1px solid lightgray;
+        margin:-150px 0px 0px 40px;
+        border-radius: 100px;
+        text-align: center;
+        padding: 10px 0px 0px 0px;
+        color:rgb(96, 185, 236);
+        font-weight:900;
+}
+.input4:hover{
+    background-color:aliceblue;
+}
+.footer{
+    height: 30px;
+    margin: 5px 0px 0px 0px;
+}
+.footer li{
+    display: inline;
+}
+.footer li{
+    padding-left: 10px;
+}
+.footer li>a{
+    color:black;
+}
+/* next page css */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    border: 1px solid lightgray;
+}
+  
+  /* Sidebar links */
+  /* .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    border:1px solid;
+    width:100px;
+  }
+   */
+  /* Active/current link
+  .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  /* .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+   */ 
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  /* div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+   */
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+  .svg{
+      margin:10px 0px 0px 0px;
+      margin-left: 0px;
+      width:100%;
+}
+.sidebar svg{
+    margin-left: 20px;
+    border: 1px  ;
+    border-radius: 100%;
+
+}
+#logo{
+    margin-left: 35px;
+}
+.sidebar svg:hover{
+    background-color: rgb(88, 204, 233);
+    
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align:;
+}
+
+.box1 svg{
+    width:40px;
+    height: 40px;
+}
+.box1 a{
+    color:black;
+    font-size: 22px;
+    margin-left: -3px;
+}
+
+.box2{
+    display: flex;
+    flex-direction: row;
+}
+.box2 svg{
+    width:40px;
+    height: 40px;
+}
+.box2 a{
+    color:black;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: -1px;
+}
+
+.box3{
+    display: flex;
+    flex-direction: row;
+}
+.box3 svg{
+    width:40px;
+    height: 40px;
+}
+.box3 a{
+    color:black;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: -5px;
+}
+.box4{
+    display: flex;
+    flex-direction: row;
+}
+.box4 svg{
+    width:40px;
+    height: 40px;
+}
+.box4 a{
+    color:black;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: -5px;
+}
+.box5{
+    display: flex;
+    flex-direction: row;
+}
+.box5 svg{
+    width:40px;
+    height: 40px;
+}
+.box5 a{
+    color:black;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: -5px;
+}
+.box6{
+    display: flex;
+    flex-direction: row;
+}
+.box6 svg{
+    width:40px;
+    height: 40px;
+}
+.box6 a{
+    color:black;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: -5px;
+}
+.box7{
+    display: flex;
+    flex-direction: row;
+}
+.box7 svg{
+    width:40px;
+    height: 40px;
+}
+.box7 a{
+    color:black;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: -5px;
+}
+.box8{
+    display: flex;
+    flex-direction: row;
+}
+.box8 svg{
+    width:40px;
+    height: 40px;
+}
+.box8 a{
+    color:black;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: -5px;
+}
+
+.box1 a{
+    margin-left: 5px;
+}
+.box2 a{
+    margin-left: 10px;
+}
+.box3 a{
+    margin-left: 5px;
+}
+.box4 a{
+    margin-left: 6px;
+}
+.box5 a{
+    margin-left: 6px;
+}
+.box6 a{
+    margin-left: 7px;
+}
+.box7 a{
+    margin-left: 7px;
+}
+.box8 a{
+    margin-left: 7px;
+}
+.btn button{
+    border-radius: 100px;
+    width:170px;
+    height: 50px;
+}
+.dp img{
+    width:60px;
+    height:60px;
+    border-radius: 100%;
+    margin: 10px;
+}
+.dp{
+    display: flex;
+    margin:70px 0px 0px 0px;
+}
+.dp span{
+    font-weight: 1000;
+    font-size: 20px;
+    margin: 10px 0px ;
+}
+small{
+    position: absolute;
+    left:75px;
+    bottom: 20px;
+}
+.main2{
+    display: flex;
+}
+.left3{
+    border:1px solid lightgray;
+    width:600px;
+    margin-left: 100px;
+    position: absolute;
+    left:425px;
+}
+.left h3{
+    width:100px;
+}
+.header{
+    background-color: rgb(142, 223, 248);
+    width:600px;
+    display: flex;
+    position: fixed;
+}
+.left2{
+    width:100%;
+}
+.icon{
+    margin-top: 20px;
+}
+.dp span{
+    color:gray
+
+}
+.icons span{
+    margin-left: 20px;
+}
+#btn2{
+    width:100px;
+    height: 50px;
+    margin-left: 200px ;
+
+
+}
+.show{
+    border:1px solid lightgray;
+    height: 30px;
+    width:100%;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(28, 192, 241);
+    font-size: medium;
+    font-weight: 500;
+}
+.show:hover{
+    background-color: rgb(219, 212, 212);
+}
+.dp2{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 0px 0px ;
+    height: 50px;
+    width:100%;
+}
+.dp2 img{
+    width:30px;
+    height: 30px;
+    margin-top: 5px;
+}
+.dp2 span{
+    margin:1px;
+    font-size: 20px;
+    margin-top: -5px;
+    margin-left: 10px;
+}
+#grey{
+    color:grey;
+    font-size: medium;
+    margin: 1px;
+}
+#small{
+    margin-top: 90px;
+    position: absolute;
+    top:170px;
+    left: 130px;
+}
+.dot{
+    margin-left: 200px;
+}
+.inputs{
+    width:500px;
+    border:1px solid;
+    margin:10px;
+    border-radius: 100px;
+    height: 40px;
+    margin-left: 60px;
+    text-align: center;
+    color: rgb(77, 199, 247);
+    padding-top: 10px;
+    font-weight: 1000;
+    font-size: large;
+}
+.inputs:hover{
+    background-color: aliceblue;
+}
+.vote span{
+    margin-left: 60px;
+    color:lightgray;
+    width: 50%;
+}
+.like img{
+    width:20px;
+    height: 20px;
+}
+.like{
+    margin-top: 20px;
+
+}
+.like span{
+    margin-left: 50px;
+}
+.dp2{
+    border:;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#small2{
+    position: absolute;
+    top:480px;
+    font-size: medium;
+    left: 70px;
+}
+.dp2 img{
+    margin-left: 10px;
+    border-radius: 100%;
+    width:50px;
+    height: 40px;
+}
+.pic img{
+    width:600px;
+    height: 500px;
+}
+.pic3 img{
+    width:500px;
+    height:400px;
+    margin:10px;
+    border-radius: 20px;
+}
+.pic4 img{
+    width:400px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 30px;
+
+}
+#pak {
+    width: 50px;
+    height: 10px;
+
+}
+.pic5 img{
+    width: 400px;
+    height: 250px;
+    margin: 30px;
+    border-radius: 30px;
+}
+.right{
+    margin-left: 10px;
+}
+.right2{
+    margin-left: 910px;
+}
+.serach{
+    width:40px;
+    height: 40px;
+    border: 1px solid;
+}
+.search input{
+    width:380px;
+    height: 40px;
+    margin:20px;
+    text-align: center;
+    border-radius: 100px;
+    border: 1px solid rgb(248, 246, 246);                      ;
+    background-color: rgb(248, 246, 246);
+    background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+
+}
+.search input:hover{
+    background-color: aliceblue;
+
+}
+.rbox{
+    width:400px;
+    border: 1px ;
+    margin:20px;
+    border-radius: 20px;
+    background-color:rgb(146, 231, 247);
+}
+.rbox h3{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+}
+.list-group li{
+    width:380px;
+    margin:10px;
+    border:none;
+    border-radius: 10px;
+    background-color:rgb(233, 229, 229);
+}
+.list-group li>img{
+    width:30px;
+    border-radius:100px;
+    margin-right: 10px;
+}
+.text{
+    margin-left:10px;
+}
+/* seeting page css */
+.line1{
+    margin-left: 300px;
+    border:1px ;
+    width:50%;
+}
+.line1 h2{
+    margin-left: 20px;
+}
+.list{
+    border:;
+
+}
+.list ul{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.list li{
+    list-style: none;
+    border: ;
+    padding: 1px;
+    font-size: 20px;
+    height: 70px;
+    margin:30px;
+}
+.list ul li{
+    margin-top: 50px;
+}
+.none{
+    display: none;
+}
+.hvr:hover> .none{
+    display: block;
+    border-radius: 100px;
+    height: 500px;
+    position: absolute;
+    top:10px;
+    left:1100px;
+    right: 50px;
+    width: 30%;
+}
+@media  screen (max-width:500px) {
+    .sidebar{
+        display:none;
+    }
+    
+}
+@media screen  (max-width:600px) {
+    .right2{
+        width:300px;
+        margin-right:1000px;
+    }
+    
+}
+
