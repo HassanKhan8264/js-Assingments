@@ -1,0 +1,108 @@
+body{
+    margin:0px;
+    padding:0px;
+
+}
+/* tabs */
+.tabs{
+    /* border:1px solid red; */
+    height:8vh;
+    background-color:aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+}
+.menu i{
+    font-size: 30px;
+}
+i:hover{
+    cursor: pointer;
+}
+#names{
+    margin-left:10px;
+}
+#names:hover{
+    cursor: pointer;
+}
+.content{
+    /* display:none; */
+}
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#men{
+    font-size: 25px;
+    display: none;
+}
+ @media screen and (max-width:400px) {
+    .tabs{
+        display: none;
+        height: 100vh;
+        display: block;
+        justify-content: center;
+        align-items: left;
+    }
+    .menu{
+        display: none;
+        border: 1px solid;
+        height: 100vh;
+        display: block;
+        justify-content: center;
+        align-items: left;
+    }
+    #men{
+        display:block;
+        position: absolute;
+        right:10px;
+    }
+    #btn0{
+        margin-top: 40px;
+        margin-left: 20px;
+        display: none;
+    }
+   
+    #btn1{
+        margin-top: 40px;
+        margin-left: 20px;
+        display: none;
+
+    }
+    #btn2{
+        margin-top: 40px;
+        margin-left: 20px;
+        display: none;
+
+    }
+    #btn3{
+        margin-top: 40px;
+        margin-left: 20px;
+        display: none;
+
+    }
+} 
+
+
+/* modal */
+.modal {
+    position: absolute;
+    width: calc(100vw);
+    height: calc(100vh);
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.modal-content {
+    background-color: #fff;
+    width: calc(80vw);
+    height: calc(80vh);
+}

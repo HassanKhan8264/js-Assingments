@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="tabs">
+        <div class="menu">
+
+            <div id="btn0" onClick="tabChange('0')"><i class="bi bi-house" id="icon"></i><span id="names">Home</span></div>
+            <div id="btn1" onClick="tabChange('1')"><i class="bi bi-file-person-fill"></i><span id="names">About</span></div>
+        <div id="btn2" onClick="tabChange('2')"><i class="bi bi-app"></i><span id="names">Product</span></div>
+        <div id="btn3" onClick="tabChange('3')"><i class="bi bi-person-lines-fill"></i><span id="names">Contacts</span></div>
+        <button id="men" id="none" onClick="menu()"><i class="bi bi-border-width"></i></button>
+    </div>
+    </div>
+    <div class="tabs-content">
+        <div id="tab0" class="content">Home</div>
+        <div id="tab1" class="content">About</div>
+        <div id="tab2" class="content">Products</div>
+        <div id="tab3" class="content">contacts</div>
+    </div>
+
+     <!-- modal -->
+     <div onClick="modal1()" class="tab"><button>More Data</button></div>
+     <div id="modal1" class="modal">
+         <div class="modal-content">
+             <button onClick="modal1()">X</button>
+         </div>
+     </div>
+
+
+</body>
+<script src="app.js"></script>
+</html>
